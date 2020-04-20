@@ -1,0 +1,35 @@
+.index3
+  %h1 
+    予約状況
+  %table
+    %thead
+      %tr
+        %th 
+        %th 
+        %th 
+        %th 
+        %th
+        %th
+        %th
+  %language{:initial => "en", :lang => "ja,en,ch,kr"}
+    %tbody
+      - @events.each do |event|
+        %tr
+          .pp
+            ・受診または処方箋:
+            %td= event.title
+          .pp1
+            ・内容:
+            %td= event.description
+          .pp2
+            ・希望時間:
+            %td= event.start_date
+          %td= link_to '確認画面', event
+          %td= link_to '予約変更', edit_event_path(event)
+          %td= link_to '予約削除', event, method: :delete, data: { confirm: 'Are you sure?' }
+
+  %br
+.index31
+  = link_to '新規予約', new_event_path
+.index32
+  %a.btn{:href => "/tweets"} トップページへ戻る

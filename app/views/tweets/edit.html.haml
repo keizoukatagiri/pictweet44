@@ -1,0 +1,11 @@
+.contents.row234
+  .container234
+    = form_with(model: @tweet, local: true) do |form|
+      .u4
+        血圧編集
+      .yyy
+        = form.text_field :name, class: 'rrr', placeholder: "Nickname"
+      .yyy1
+        = form.text_area :text, class: 'input_text1',placeholder: "text" , rows: "10"
+      .yyy2
+        = form.submit "登録"

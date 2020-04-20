@@ -1,0 +1,222 @@
+// Place all the styles related to the Events controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+body {
+  position:fixed;
+  color: #333;
+  margin: 33px;
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  background-color: paleturquoise;
+}
+
+p, ol, ul, td {
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+pre {
+  background-color: #eee;
+  padding: 10px;
+  font-size: 11px;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+
+  &:visited {
+    color: orange;
+  }
+
+  &:hover {
+    color: #fff;
+    background-color: #000;
+  }
+}
+
+th {
+  padding-bottom: 5px;
+}
+
+td {
+  padding: 0 5px 7px;
+}
+
+div {
+  &.field, &.actions {
+    margin-bottom: 10px;
+  }
+}
+
+#notice {
+  color: green;
+}
+
+.field_with_errors {
+  padding: 2px;
+  background-color: red;
+  display: table;
+}
+
+#error_explanation {
+  width: 450px;
+  border: 2px solid red;
+  padding: 7px 7px 0;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+
+  h2 {
+    text-align: left;
+    font-weight: bold;
+    padding: 5px 5px 5px 15px;
+    font-size: 12px;
+    margin: -7px -7px 0;
+    background-color: #c00;
+    color: #fff;
+  }
+
+  ul li {
+    font-size: 12px;
+    list-style: square;
+  }
+}
+
+
+label {
+  display: block;
+}
+
+
+ .index1{
+  font-family: verdana, arial, helvetica, sans-serif;
+  margin: 0 auto;
+
+  label {
+    display: block;
+  }
+  .field8{
+    font-size: 17px;
+    margin-bottom: 10px;
+    color: red;
+    
+  }
+  .field81{
+    font-size: 17px;
+    margin-top: 10px;
+    color: dodgerblue;
+  }
+  .field82{
+    font-size: 17px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: forestgreen;
+  }
+  .field83{
+    font-size: 17px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .actions84{
+    font-size: 17px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+ }
+.new1{
+  font-size: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  color: red($color: #000000);
+  .h1{
+    color: red;
+  }
+}
+.show2{
+  font-size: 20px;
+  margin-top: 30px;
+  margin-left: 20px;
+  color: blue;
+
+  .show3{
+    p{
+      font-size: 20px;
+      color: red;
+    }
+  }
+  .show4{
+    p{
+      font-size: 20px;
+      color: dodgerblue;
+    }
+  }
+  .show5{
+    p{
+      font-size: 20px;
+      color: forestgreen;
+    }
+  }
+}
+.index3{
+  margin-top: 30px;
+  margin-left: 50px;
+  color: blue;
+  .pp{
+    margin-top: 10px;
+    font-size: 15px;
+    color: red;
+  }
+  .pp1{
+    font-size: 15px;
+    margin-top: 10px;
+    color: dodgerblue;
+  }
+  .pp2{
+    margin-bottom: 10px;
+    font-size:15px;
+    margin-top: 10px;
+    color: forestgreen;
+  }
+  a{
+    font-size: 15px;
+    margin-left: 10px;
+    &:visited {
+      color: orange;
+    }
+  }
+}
+
+
+.index31{
+  margin-top: 10px;
+  margin-left: 60px;
+  font-size: 15px;
+}
+.index32{
+  margin-left: 47px;
+  margin-top: 10px;
+  font-size: 15px;
+  a{
+    font-size: 15px;
+    margin-left: 10px;
+    &:visited {
+      color: red;
+    }
+  }
+}
+
+.index7{
+  margin-left: 15px;
+  font-size: 20px;
+  color: blue;
+  a{
+    font-size: 20px;
+    margin-left: 10px;
+    &:visited {
+      color: orange;
+    }
+  }
+}

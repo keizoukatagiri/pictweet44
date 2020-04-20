@@ -1,0 +1,18 @@
+.show2
+  内容確認画面
+  .show3
+    %p
+      %b ・受診または処方箋:
+      = @event.title
+  .show4
+    %p
+      %b ・内容:
+      = @event.description
+  .show5
+    %p
+      %b ・希望日:
+      = @event.start_date
+
+    = link_to '予約状況登録へ', edit_event_path(@event)
+    \|
+    = link_to '予約状況画面へ', events_path

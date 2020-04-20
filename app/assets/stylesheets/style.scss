@@ -1,0 +1,55 @@
+@import "compass";
+
+/*
+ * "ほのか明朝" licensed under the IPA Font License Agreement v1.0
+ * http://fontfree.me/966（配布元のURL）
+ * http://ipafont.ipa.go.jp/（IPAフォントのURL）
+ * http://ipafont.ipa.go.jp/ipa_font_license_v1.html（IPAフォントライセンスv1.0のURL）
+ */
+.header {
+  .header__bar.row{
+    font-size: 20px;
+    margin-left: 10px;
+    height: 100px;
+    display: flex;
+    position: relative;
+    padding-top: 30px;
+    h1.grid-61{
+      float: left;
+    }
+    a {
+      color: #000;
+    
+      &:visited {
+        color: orange;
+      }
+    }
+    .Re{
+      margin-top: 30px;
+      margin-left: 300px;
+      padding-left: 230px;
+    }
+    .grid-66{
+      margin-top: 30px;
+      margin-bottom: 10px;
+      padding-right: 20px;
+      margin-left: 25px;
+    }
+    .user_nav.grid-6{
+      margin-top: 30px;
+      margin-bottom: 10px;
+      padding-right: 50px;
+    }
+  }
+}
+
+ 
+.contents.row123{
+  height: 850px;
+  width: 1200px;
+  margin-top: 50px;
+  background-color: snow;
+  .more1{
+    
+  }
+}
